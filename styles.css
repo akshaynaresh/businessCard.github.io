@@ -1,0 +1,37 @@
+body {
+	margin: 20px;
+	font-family: Times New Roman;
+}
+
+.profile-photo {
+	width: 350px;
+	border: 4px solid #52b788;
+	border-radius: 5px;
+}
+
+.card {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	color: #2b2839;
+	background: #95d5b2;
+	border-bottom: 7px solid #1b4332;
+	border-radius: 10px;
+	box-shadow: 40px -15px #1b4332;
+	text-shadow: 1px 1px 3px #081c15;
+}
+
+.card:hover {
+	background: #52b788;
+}
+
+.border-blue {
+	border: 1px dotted blue;
+}
+
+.text-italic {
+	font-style: italic;
+}
